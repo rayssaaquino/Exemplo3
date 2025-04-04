@@ -53,13 +53,13 @@ console.log(parseFloat(numString))
 let numInt ="100";
 console.log (numInt.toString)
 
-// STRING =>
-
-//METODOS
-//METODOS LENGTH - VERIFICA O TAMANHO DA string
+// STRING => INT
 
 let numString1 ="120";
 console.log (parseInt(numString))
+
+//METODOS
+//METODOS LENGTH - VERIFICA O TAMANHO DA string
 
 let frase = "O mundo da tecnologia";
 console.log (frase.length)
@@ -74,4 +74,31 @@ console.log (texto.indexOf("ão"))
 let info="Progamação de ponta";
 console.log (info.slice(14,20))
 
-//OPRADORES ARITMETICOS
+//OPERADORES ARITMETICOS
+
+const a=10;
+const b=20;
+
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+
+//OPERADORES LOGICOS
+
+const c=20;
+const d=30;
+
+console.log(c<d);
+console.log(c>d && c<10);
+console.log(c>d || d>c);
+console.log(c==b || d <= c);
+
+//OPERADORES DE COMPARAÇÃO
+
+const e=10;
+const f=30;
+
+console.log (e==f);
+console.log (e===f);
+console.log (e!=f);
